@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>CON+FORT</title>
+
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header>
+    <h1>CON+FORT</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#interactive_elements">Interactive Elements</a>
+      <a href="#text_elements">Text Elements</a>
+      <a href="#combined_elements">Combined Elements</a>
+      <a href="#branding_ideas">Branding Ideas</a>
+      <a href="#brand_components">Brand components</a>
+      <a href="product.html">Product Listing Template</a>
+      <a href="checkout.html">Checkout Template</a>
+      <a href="#citations">Citations</a>
+    </nav>
+  </header>
+
+  <!--CITATIONS: TEXT:https://en.wikipedia.org/wiki/Simon_Fraser_University
+  TUTORIALS:https://www.w3schools.com/html/html_links.asp-->
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+
+    <section class="element">
+      <h3>In-text link</h3>
+      <h4>CSS selector:</h4>
+      <p>.intext_link</p>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="intext_link"&gt;here&lt;/a&gt;</code>
+      <h4>Rendered element:</h4>
+      <!-- AN IN-TEXT LINK TO YAHOO.COM // -->
+      <p>Click <a href="http://www.yahoo.com" class="intext_link">here</a> to go to yahoo.</p>
+    </section>
+
+
+    <!-- Default Button styling section -->
+    <section class="element">
+
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.button-nav</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <a href="#" class="button-nav">Default Button</a>
+
+    </section>
+
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <h4>CSS selector:</h4>
+      <p>.reset-button</p>
+      <p>.submit-button</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;button class="reset-button"&gt;Reset&lt;/button&gt;</code>
+      <code>&lt;button class="submit-button"&gt;Submit&lt;/button&gt;</code>
+
+      <h4>Rendered element:</h4>
+      <button class="reset-button"> Reset </button>
+      <button class="submit-button"> Submit </button>
+    </section>
+
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+      <h4>CSS selector:</h4>
+      <p>.text_input</p>
+      <h4>Sample code:</h4>
+      <code>&lt;label for="name"&gt;Your name: &lt;/label&gt;</code>
+      <code>&lt;input  id="name" class="text_input" type="text" name="name"&gt;</code>
+      <h4>Rendered element:</h4>
+      <!--ADD A LABEL TO ENTER YOUR NAME -->
+      <label for="name">Your name:  </label>
+      <input id="name" class="text_input" type="text" name="name">
+    </section>
+
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+      <h4>CSS selector:</h4>
+      <p>label (Stadard radio button)</p>
+      <h4>Sample code:</h4>
+      <code>&lt;label for="radio"&gt;Radio button&lt;/label&gt;</code>
+      <code>&lt;input id="radio" type="radio"&gt;</code>
+      <h4>Rendered element:</h4>
+      <label for="radio">Radio button</label>
+      <input id="radio" type="radio">
+    </section>
+
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+      <h4>CSS selector:</h4>
+      <p>.image_link</p>
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#"&gt; &lt;img class="image_link" src="#" alt="SFU"&gt; &lt;/a&gt;</code>
+      <h4>Rendered element:</h4>
+      <!--A LINK TO SFU-->
+      <a href="http://www.sfu.ca">
+        <img class="image_link" src="http://www.cs.sfu.ca/~mark/sfu_logo.jpg" alt="SFU">
+      </a>
+    </section>
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+    <!--FOUR HEADINGS-->
+    <section class="element">
+      <h3>Headings</h3>
+      <h4>CSS selector:</h4>
+      <p>h3, h4, h5, h6</p>
+      <h4>Sample code</h4>
+      <code>&lt;h3&gt;heading one&lt;/h3&gt;</code>
+      <code>&lt;h4&gt;heading two&lt;/h4&gt;</code>
+      <code>&lt;h5&gt;heading three&lt;/h5&gt;</code>
+      <code>&lt;h6&gt;heading four&lt;/h6&gt;</code>
+      <h4>Rendered element:</h4>
+      <h3>heading one</h3>
+      <h4>heading two</h4>
+      <h5>heading three</h5>
+      <h6>heading four</h6>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+      <h4>CSS selector:</h4>
+      <p>p</p>
+      <h4>Sample code</h4>
+      <code>&lt;p&gt;Type paragraphs here&lt;/p&gt;</code>
+      <h4>Rendered element:</h4>
+      <p>Simon Fraser University (SFU) is a public research university in British Columbia, Canada with campuses in Burnaby (Main Campus), Surrey, and Vancouver. </p>
+      <p>The 1.7 km2 (0.66 sq mi) Burnaby campus on Burnaby Mountain, located 20 km (12 mi) from downtown Vancouver, was established in 1965 and comprises more than 30,000 students and approximately 950 faculty members.  </p>
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+      <h4>CSS selector:</h4>
+      <p>ul,li</p>
+      <h4>Sample code</h4>
+      <code>&lt;ul&gt;</code>
+      <code>&lt;li&gt;One&lt;/li&gt;</code>
+      <code>&lt;li&gt;Two&lt;/li&gt;</code>
+      <code>&lt;li&gt;Three&lt;/li&gt;</code>
+      <code>&lt;/ul&gt;</code>
+      <h4>Rendered element:</h4>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+    <section class="element">
+      <h3>Main Navigation</h3>
+      <nav>
+        <a href="#interactive_elements">CON + FORT</a>
+        <a href="#interactive_elements">CLOTHING</a>
+        <a href="#interactive_elements">ACCESSORIES</a>
+        <a href="#interactive_elements">SHOES</a>
+        <a href="#interactive_elements">FEATURED</a>
+
+      </nav>
+    </section>
+
+    <section class="element">
+      <h3 id = "product_listing">Product Listing</h3>
+      <img src="img/TShirt_Black.jpg" alt="Black T-shirt" >
+      <p>TSHIRT 1064</p>
+      <p>Price: $32</p>
+    </section>
+
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+  <section id="branding_ideas">
+    <h2>Basic Branding Ideas</h2>
+    <section class = "element">
+      <h3>About the company</h3>
+      <p><b>CON+FORT</b> began in 2019 with an idea that fashion should be uncomplicated and thoughtfully designed. Adopting a minimal aesthetic and luxury inspired space, the evolution of the brand set its foundation. It is a small boutique store right now, but we believe it will begin its expansion over the next few years across Canada and into the US. We strive to innovate and provide attainable luxury, taking inspiration from various forms of art and culture.
+      </p>
+    </section>
+
+    <section class = "element">
+      <h3>Potential customers</h3>
+      <p>CON + FORT provides accessible luxury for women and men who seek every day essentials reimagined with a modern minimalist approach. Basically, CON + FORT is for people who are around 20-40 ages. Both students and business person can
+        find proper clothes or accessories.</p>
+      </section>
+
+      <section class = "element">
+        <h3>Why</h3>
+        <p>CON + FORT is focusing on designing high-quality and comfortable clothes for all the customers. We invest in our products with the hopes of creating tomorrow's classics, continually pushing our boundaries to achieve this goal.  </p>
+      </section>
+    </section>
+
+    <section id="brand_components">
+      <h2>Brand Components</h2>
+
+      <section class = "element">
+        <h3>Fonts</h3>
+        <p>The font for this website is <a href = "https://fonts.google.com/specimen/Thasadith"><b>Thasadith</b></a>. Thasadith is a Thai and Latin family. It's a humanist sans serif with rounded corners.</p>
+      </section>
+
+      <section class = "element">
+        <h3>Color Palettes</h3>
+        <img src="img/color_palette.png" alt="Color Palette">
+      </section>
+
+      <section class = "element">
+        <h3>Potential Imagery & Art Direction</h3>
+        <img src="img/direction1.jpg" alt="art direction">
+        <img src="img/direction2.jpg" alt="art direction">
+        <img src="img/direction3.jpg" alt="art direction">
+      </section>
+    </section>
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>2018 Colour & Decor Trends. (n.d.). Retrieved from <a href="https://www.dulux.ca/diy/colour/2018-dulux-trends">https://www.dulux.ca/diy/colour/2018-dulux-trends</a>.</li>
+        <li>Google Fonts. (n.d.). Retrieved from <a href="https://fonts.google.com/specimen/Thasadith">https://fonts.google.com/specimen/Thasadith</a>.</li>
+        <li>Oak Fort Home. (n.d.). Retrieved from <a href="https://minimalissimo.com/oak-fort-home/">https://minimalissimo.com/oak-fort-home/</a>.</li>
+        <li>Resources for images: Oak Fort. (n.d.). Retrieved from  <a href="https://www.oakandfort.com/">https://www.oakandfort.com/</a>.</li>
+        <li>Simon Fraser UniversityEngaging the World. (n.d.). Retrieved from <a href="https://www.sfu.ca/">https://www.sfu.ca/</a>/</li>
+        <li>W3Schools. (n.d.). Retrieved from  <a href="https://www.w3schools.com">https://www.w3schools.com</a>.</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+  </html>

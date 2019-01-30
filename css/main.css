@@ -1,0 +1,179 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bolder;
+  padding: 2rem;
+}
+nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav a {
+  color: rgb(95, 158, 160);
+  text-decoration: none;
+  margin-right: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+nav a:hover, nav a:focus {
+  color: rgb(100,149,210);
+  text-decoration: underline;
+}
+
+.intext_link:hover, .intext_link:focus {
+  color: rgb(0, 139, 139);
+  text-decoration: underline;
+}
+
+.element {
+  padding-bottom: 1.5rem;
+  border-top-width: 0.15rem;
+  border-top-style:double;
+  border-top-color: rgb(70, 130, 180);
+
+}
+
+h1 {
+  font-weight: bold;
+  color: rgb(72,61,139);
+}
+
+h2 {
+  margin-top: 3rem;
+  color: rgb(205,92,92);
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(218,165,32);
+}
+
+h4 {
+  /* margin-bottom: 0.25rem; */
+  color: rgb(70, 130, 180);
+}
+
+h5 {
+  color: rgb(128,128,128);
+}
+p {
+  margin-top: 0;
+
+}
+
+code {
+  background-color: rgb(255, 255, 240);
+  padding: 0.5rem;
+  display: block;
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+button {
+  margin-top: 1rem;
+}
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(176, 196, 222);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+.reset-button {
+  display: inline-block;
+  padding: 0.5rem;
+	color: white;
+	background-color: rgb(203, 184, 152);
+	text-decoration: none;
+  transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.reset-button:hover, .reset-button:active, .reset-button:focus {
+	background-color: rgb(173,216,230);
+	border-radius: 0.4rem;
+}
+
+.submit-button{
+  display: inline-block;
+  padding: 0.5rem;
+	color: white;
+	background-color: rgb(176, 196, 222);
+	text-decoration: none;
+  transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.submit-button:hover, .submit-button:active, .submit-button:focus {
+	background-color: rgb(173,216,230);
+	border-radius: 0.4rem;
+}
+
+.image_link {
+  transition: transform 0.5s;
+  transform: scale(0.95);
+}
+
+.image_link:hover, .image_link:focus{
+  transform: scale(1);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
+
+div {
+  margin-bottom: 0.5rem;
+  display:block;
+}
+
+/*Animation of text input */
+.text_input {
+  border: 0;
+  background: rgb(240,240,240);
+}
+
+.text_input:hover, .text_input:focus {
+  background: rgb(240,248,255);
+}
+
+.product{
+  margin-top:  2rem;
+  margin-bottom: 1rem;
+}
+
+.checkout {
+  margin-top: 2rem;
+  padding: 2rem;
+  /* width: 220px;
+  height: 320px; */
+  background-color: rgb(240,248,255);
+}
+
+.checkout-content {
+  display: block;
+}
